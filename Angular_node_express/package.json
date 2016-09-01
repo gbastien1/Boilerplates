@@ -1,0 +1,26 @@
+{
+  "name": "deckofcards",
+  "version": "1.0.0",
+  "description": "A test application using Angular1.5.x and the DeckOfCards API",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "build-css": "node-sass --include-path scss app/public/scss/main.scss app/public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "gbastien1",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/router": "^0.2.0",
+    "angular": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.10.2"
+  }
+}
