@@ -4,7 +4,7 @@
   "description": "An environment setup for react/babel/webpack",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack && webpack-dev-server --hot --content-base src"
   },
   "keywords": [
     "react",

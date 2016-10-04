@@ -1,6 +1,6 @@
 import React from 'react';
 
-class App extends React.Component {
+export default class Layout extends React.Component {
 
 	constructor(props) {
       super(props);
@@ -22,7 +22,7 @@ class App extends React.Component {
 		return (
 			<div>
 				<h2 style = {myStyle}> {this.state.header}</h2>
-				<Content contentText = {this.state.content}/>
+				<Content contentText = {this.state.content} />
 			</div>
 		);
 	}
@@ -35,5 +35,3 @@ class Content extends React.Component {
 		);
 	}
 }
-
-export default App;
